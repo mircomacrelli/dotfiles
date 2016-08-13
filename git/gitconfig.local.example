@@ -1,0 +1,6 @@
+; user information
+[user]
+    name = Name Surname
+    email = user@domain.tld
+[user]
+    signingkey = KEY

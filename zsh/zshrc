@@ -1,0 +1,47 @@
+export PATH="/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin"
+
+# zsh highlighters
+ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
+
+# use my theme
+ZSH_THEME="mirco"
+
+# do not check for update
+DISABLE_AUTO_UPDATE="true"
+
+# stop changing the title of the terminal windows
+DISABLE_AUTO_TITLE="true"
+
+# list of plugins for oh-my-zsh
+plugins=(shrink-path colored-man-pages git-prompt zsh-syntax-highlighting zsh-autosuggestions history-substring-search)
+
+# load a file with this machine specific preferences
+if [ -f $HOME/.zshrc.local ]; then
+    source $HOME/.zshrc.local
+fi
+
+# load oh-my-zsh
+export ZSH=$HOME/.oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
+# auto correct only commands
+setopt correct
+
+# do prompt expansion for shrink-path
+setopt prompt_subst
+
+# enable extended blog
+setopt extendedglob
+
+# use green and white when matching in history-substring-search
+HISTORY_SUBSTRING_SEARCH_HIGHLIGHT_FOUND="bg=green,fg=white,bold"
+
+# configure zsh-autosuggestions
+ZSH_AUTOSUGGEST_USE_ASYNC=true
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=35
+
+# my colors for ls
+LSCOLORS="exfxgxdxCxdhfhabagacad"
+
+# language
+export LANG=en_US.UTF-8

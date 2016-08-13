@@ -1,0 +1,71 @@
+" always enable advanced features no matter how vim is started
+set nocompatible
+" disable viminfo
+set viminfo="NONE"
+" enhance command line completion
+set wildmenu
+" use the mouse in all modes
+set mouse=a
+" enable backspace in these modes
+set backspace=indent,eol,start
+" my terminal connection is fast so redraw more things ore often
+set ttyfast
+" use utf-8 as the default encoding and don't write the bom at the start of the file
+set encoding=utf-8 nobomb
+" don't append a newline at the end of files
+set noeol
+" don't create backups
+set nobackup
+" don't create swap files
+set noswapfile
+" no backup while saving
+set nowb
+" ignore modelines
+set nomodeline
+" do not wrap
+set nowrap
+" enable syntax highlight
+syntax on
+" highlight the cursor line
+set cursorline
+" use 4 spaces when auto indenting
+set shiftwidth=4
+" simulate tabs while editing
+set softtabstop=4
+" one tab is four spaces
+set tabstop=4
+" use spaces insted of tabs
+set expandtab
+" enable autoindent
+set autoindent
+" use macos clipboard
+set clipboard=unnamed
+" highlight the search results
+set hlsearch
+" use incremental search while typing the pattern
+set incsearch
+" ignore the case of letters when searching
+set ignorecase
+" if the search pattern has Upper case letters override the ignorecase option
+set smartcase
+" always show the status line
+set laststatus=2
+" show the current line numer and column
+set ruler
+" do not show the intro message
+set shortmess=I
+" show the current mode in the last line of the screen
+set showmode
+" reload files changed outside vim
+set autoread
+" keep 4 line before and after the cursor line when scrolling or searching
+set scrolloff=4
+" remap : to ,
+map , :
+" load my color scheme
+colorscheme mirco
+" use the black hole register when deleting something
+nnoremap d "_d
+vnoremap d "_d
+nnoremap x "_x
+vnoremap x "_x

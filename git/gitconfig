@@ -1,0 +1,23 @@
+[core]
+    ; set the path for my global gitignore file
+    excludesfile = ~/.gitignore
+    ; use vim as the default editor
+    editor = vim
+    ; use less as the pager. long lines are truncated rather than wrapped
+    pager = diff-highlight | less --tabs=4 -RFXS
+	autocrlf = input
+[commit]
+    gpgsign = true
+[alias]
+    ; custom log output formats
+    l = log --date=human --graph --pretty=format:'%C(auto)%h%Creset%C(auto)%d%Creset %G? - %s %C(blue)[%an]%Creset %C(yellow)(%ad)%Creset'
+    lp = log --date=human -p --pretty=format:'%C(auto)%h%Creset%C(auto)%d%Creset %G? - %s %C(blue)[%an]%Creset %C(yellow)(%ad)%Creset'
+    ; use the short output format and show the branch's informations
+    s = status -sb
+    ; update the repository and clean
+    uac = !git pull && git reflog expire --expire-unreachable=now --all && git gc --aggressive --prune=now --force
+[interactive]
+    diffFilter = diff-highlight
+[include]
+    ; include the file that contains the options for this machine
+    path = ~/.gitconfig.local

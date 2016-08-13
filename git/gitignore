@@ -1,0 +1,16 @@
+# Files created by Finder on macOS
+.DS_Store
+._*
+
+# IntelliJ IDEA's project files
+.idea/
+*.iml
+
+# various output directories
+target/
+out/
+classes/
+build/
+
+# gradle's hidden directory
+.gradle/
