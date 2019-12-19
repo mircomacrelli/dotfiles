@@ -13,7 +13,7 @@ DISABLE_AUTO_UPDATE="true"
 DISABLE_AUTO_TITLE="true"
 
 # list of plugins for oh-my-zsh
-plugins=(shrink-path colored-man-pages git-prompt zsh-syntax-highlighting zsh-autosuggestions history-substring-search)
+plugins=(shrink-path colored-man-pages doctl git-prompt zsh-syntax-highlighting zsh-autosuggestions history-substring-search)
 
 # load a file with this machine specific preferences
 if [ -f $HOME/.zshrc.local ]; then
