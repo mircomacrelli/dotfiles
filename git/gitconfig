@@ -18,6 +18,8 @@
     uac = !git pull && git reflog expire --expire-unreachable=now --all && git gc --aggressive --prune=now --force
 [interactive]
     diffFilter = diff-highlight
+[diff]
+	algorithm = histogram
 [include]
     ; include the file that contains the options for this machine
     path = ~/.gitconfig.local
