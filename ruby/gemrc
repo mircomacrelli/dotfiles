@@ -1,0 +1,4 @@
+verbose: false
+benchmark: false
+update_sources: true
+gem: --no-ri --no-rdoc --no-document --user-install --bindir /usr/local/bin
