@@ -1,0 +1,7 @@
+source 'https://rubygems.org' do
+  gem 'dropbox_api'
+  gem 'jekyll'
+  gem 'ruby-progressbar'
+  gem 'ansi'
+  gem 'rubyzip'
+end
