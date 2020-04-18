@@ -1,0 +1,8 @@
+six
+colorama
+requests
+unidecode
+pyOpenSSL
+beautifulsoup4
+python-magic-bin
+wheel
