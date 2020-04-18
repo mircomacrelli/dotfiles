@@ -5,4 +5,7 @@ source 'https://rubygems.org' do
   gem 'ansi'
   gem 'rubyzip'
   gem 'nokogiri'
+  gem 'rubocop'
+  gem 'debase'
+  gem 'ruby-debug-ide'
 end
