@@ -1,5 +1,3 @@
-HashKnownHosts yes
-
 Host *
     ConnectTimeout 30
     ServerAliveInterval 10
