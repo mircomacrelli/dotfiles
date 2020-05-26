@@ -73,6 +73,7 @@ mas "Image2icon", id: 992115977
 mas "Keka", id: 470158793
 mas "Keynote", id: 409183694
 mas "Money Pro", id: 972572731
+mas "musiXmatch lyrics", id: 454723812
 mas "Name Mangler", id: 603637384
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
@@ -80,5 +81,6 @@ mas "PCalc", id: 403504866
 mas "Pixelmator Pro", id: 1289583905
 mas "Reeder", id: 1449412482
 mas "Taskheat", id: 1431995750
+mas "Time Sink", id: 404363161
 mas "WireGuard", id: 1451685025
 mas "Xcode", id: 497799835
