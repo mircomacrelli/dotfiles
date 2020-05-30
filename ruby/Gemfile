@@ -9,4 +9,5 @@ source 'https://rubygems.org' do
   gem 'debase'
   gem 'ruby-debug-ide'
   gem 'cocoapods'
+  gem 'cheatset'
 end
