@@ -27,4 +27,4 @@ ZSH_THEME_GIT_PROMPT_CLEAN=""
 RPROMPT=''
 
 # prompt
-PROMPT='${return_status}%{$fg[yellow]%}${screen_session}%{$reset_color%}${user_and_host}%{$fg[blue]%}$(shrink_path -f) $(git_super_status)${prompt_char}'
+PROMPT='${return_status}%{$fg[yellow]%}${screen_session}%{$reset_color%}${user_and_host}%{$fg[blue]%}$(shrink_path -T -l) $(git_super_status)${prompt_char}'
