@@ -23,3 +23,5 @@
 [include]
     ; include the file that contains the options for this machine
     path = ~/.gitconfig.local
+[pull]
+	rebase = false
