@@ -1,0 +1,5 @@
+@angular/cli
+cordova
+@ionic/cli
+bower
+@capacitor/cli
