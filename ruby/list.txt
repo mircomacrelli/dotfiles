@@ -1,0 +1,11 @@
+dropbox_api
+jekyll
+ruby-progressbar
+ansi
+rubyzip
+nokogiri
+rubocop
+debase
+ruby-debug-ide
+cocoapods
+cheatset
