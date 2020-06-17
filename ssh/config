@@ -17,3 +17,12 @@ Host github.com
     IdentityFile ~/.ssh/id_rsa
     IdentitiesOnly yes
     MACs hmac-sha2-512-etm@openssh.com,hmac-sha2-256-etm@openssh.com,hmac-sha2-512
+
+Host vpn
+    HostName vpn.mircomacrelli.net
+    User root
+    IdentitiesOnly yes
+
+Host asgard
+    HostName asgard.mircomacrelli.net
+    IdentitiesOnly yes
