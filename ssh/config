@@ -27,3 +27,8 @@ Host vpn
 Host asgard
     HostName asgard.mircomacrelli.net
     IdentitiesOnly yes
+
+# Volumio
+Host kiki
+    HostName Kiki.local
+    User volumio
