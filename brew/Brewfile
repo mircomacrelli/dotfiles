@@ -9,7 +9,7 @@ brew "jpeg"
 brew "atomicparsley"
 brew "brightness"
 brew "python@3.8"
-brew "doctl"
+brew "doctl", link: false
 brew "sdl2"
 brew "ffmpeg"
 brew "git"
