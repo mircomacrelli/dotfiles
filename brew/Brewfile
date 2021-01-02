@@ -6,7 +6,6 @@ tap "homebrew/cask-versions"
 tap "homebrew/core"
 tap "mircomacrelli/casks"
 brew "jpeg"
-brew "atomicparsley"
 brew "brightness"
 brew "python@3.8"
 brew "doctl", link: false
