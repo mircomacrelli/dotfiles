@@ -78,7 +78,7 @@ cask "vuescan"
 cask "wireshark"
 cask "xld"
 cask "xscope"
-mas "1Blocker", id: 1107421413
+mas "1Blocker", id: 1365531024
 mas "1Password 7", id: 1333542190
 mas "Fantastical", id: 975937182
 mas "Image2icon", id: 992115977
