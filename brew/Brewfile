@@ -81,6 +81,7 @@ cask "xld"
 cask "xscope"
 mas "1Blocker", id: 1365531024
 mas "1Password 7", id: 1333542190
+mas "Cardhop", id: 1290358394
 mas "Fantastical", id: 975937182
 mas "Image2icon", id: 992115977
 mas "Keka", id: 470158793
