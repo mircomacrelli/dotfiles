@@ -18,9 +18,6 @@ DISABLE_MAGIC_FUNCTIONS="true"
 # list of plugins for oh-my-zsh
 plugins=(shrink-path colored-man-pages git-prompt zsh-syntax-highlighting zsh-autosuggestions history-substring-search)
 
-# enables git prompt cache
-ZSH_THEME_GIT_PROMPT_CACHE=yes
-
 # load a file with this machine specific preferences
 if [ -f $HOME/.zshrc.local ]; then
     source $HOME/.zshrc.local
