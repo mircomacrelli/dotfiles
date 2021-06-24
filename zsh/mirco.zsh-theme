@@ -16,12 +16,14 @@ ZSH_THEME_GIT_PROMPT_SUFFIX="%{$fg[white]%}] "
 ZSH_THEME_GIT_PROMPT_SEPARATOR=""
 ZSH_THEME_GIT_PROMPT_BRANCH=""
 ZSH_THEME_GIT_PROMPT_STAGED=" %{$fg[blue]%}%{+%G%}"
-ZSH_THEME_GIT_PROMPT_CONFLICTS=" %{$fg[red]%}%{✗%G%}"
+ZSH_THEME_GIT_PROMPT_CONFLICTS=" %{$fg[red]%}%{✘%G%}"
 ZSH_THEME_GIT_PROMPT_CHANGED=" %{$fg[white]%}%{*%G%}"
-ZSH_THEME_GIT_PROMPT_BEHIND=" %{$fg[yellow]%}%{↓%G%}"
-ZSH_THEME_GIT_PROMPT_AHEAD=" %{$fg[green]%}%{↑%G%}"
+ZSH_THEME_GIT_PROMPT_BEHIND=" %{$fg[yellow]%}%{⇣%G%}"
+ZSH_THEME_GIT_PROMPT_AHEAD=" %{$fg[green]%}%{⇡%G%}"
 ZSH_THEME_GIT_PROMPT_UNTRACKED=" %{$fg[yellow]%}%{!%G%}"
+ZSH_THEME_GIT_PROMPT_STASHED=" %{$fg[white]%}%{☇%G%}"
 ZSH_THEME_GIT_PROMPT_CLEAN=""
+
 
 # empty right prompt
 RPROMPT=''
